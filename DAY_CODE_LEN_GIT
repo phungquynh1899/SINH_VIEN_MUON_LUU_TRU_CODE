@@ -1,0 +1,8 @@
+vào git tạo remote repo mới, lấy link ssh
+vào thư mục code mà mình muốn đẩy lên, kiểm tra xem có .git chưa
+nếu chưa thì gõ
+git init
+git add .
+git commit -m 'myfirstcommit'
+git remote add caycauso1 <link ssh của remote repo>
+git push caycauso1 <tên nhánh muốn đẩy lên, ở đây mặc định là master>
