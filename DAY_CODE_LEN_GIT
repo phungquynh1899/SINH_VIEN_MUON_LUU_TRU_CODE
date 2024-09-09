@@ -6,3 +6,5 @@ git add .
 git commit -m 'myfirstcommit'
 git remote add caycauso1 <link ssh của remote repo>
 git push caycauso1 <tên nhánh muốn đẩy lên, ở đây mặc định là master>
+
+Muốn kiểm tra caycauso1 hay caycauso2 (tên viết tắt của link ssh) thì gõ git remote -v
