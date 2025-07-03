@@ -2,6 +2,9 @@ vào git tạo remote repo mới, lấy link ssh
 vào thư mục code mà mình muốn đẩy lên, kiểm tra xem có .git chưa
 nếu chưa thì gõ
 git init
+tạo file .gitignore và gõ vào node_modules
+.env
+
 git add .
 git commit -m 'myfirstcommit'
 git remote add tengoitatcuaduonglink <link ssh của remote repo>
