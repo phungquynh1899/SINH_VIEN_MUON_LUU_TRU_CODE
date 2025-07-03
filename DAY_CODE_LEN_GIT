@@ -4,9 +4,17 @@ nếu chưa thì gõ
 git init
 git add .
 git commit -m 'myfirstcommit'
-git remote add caycauso1 <link ssh của remote repo>
-git push caycauso1 <tên nhánh muốn đẩy lên, ở đây mặc định là master>
+git remote add tengoitatcuaduonglink <link ssh của remote repo>
+git push tengoitatcuaduonglink <tên nhánh muốn đẩy lên, ở đây mặc định là master>
 
 Muốn kiểm tra caycauso1 hay caycauso2 (tên viết tắt của link ssh) thì gõ git remote -v
 
 pull request: khi minh commit vào nhánh phụ, bây giờ mình muốn trình với lead rằng mình muốn nhập nhánh phụ của mình vào nhánh chính của team
+
+giải thích tengoitatcuaduonglink: tengoitatcuaduonglink thực chất là viết tắt của đường link của repo trên git 
+giống như khi mình gõ www.kenh14.vn, mình bấm vào dấu sao, cửa sổ bookmark hiện ra, hỏi mình bây giờ mình muốn lưu tên bookmark cho trang web, mình gõ báo lá cải 
+git remote add tengoitatcuaduonglink <link ssh của remote repo> từa tựa như thao tác lưu bookmark
+tengoitatcuaduonglink chính là tên bookmark
+<link ssh của remote repo> từa tựa như www.kenh14.vn
+
+thông thường: tengoitatcuaduonglink mặc định là origin
